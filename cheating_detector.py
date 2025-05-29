@@ -3,7 +3,7 @@ from datetime import datetime
 import time
 import os
 
-# Buat folder log & screenshots jika belum ada
+# untuk folder log & screenshots jika belum ada
 os.makedirs("screenshots", exist_ok=True)
 
 # Load model deteksi wajah dari OpenCV
@@ -23,7 +23,7 @@ total_violations = 0
 multiple_face_count = 0
 missing_face_count = 0
 
-print("=== Sistem Deteksi Kecurangan Ujian Online ===")
+print("Sistem Deteksi Kecurangan Ujian Online")
 print("Tekan 'q' untuk keluar")
 
 while True:
